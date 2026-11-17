@@ -1,0 +1,18 @@
+# generated / heavy data (frames, renders, logs, working copies)
+frames/
+frames_v1/
+frames_prev/
+src_v1/
+renders/
+logs/
+out/
+refs/
+chk*/
+__pycache__/
+*.pyc
+
+# downloaded music + SFX and the mix are not redistributed here; sources and licences are in audio/CREDITS.md
+audio/music/
+audio/sfx/
+audio/_work/
+audio/*.wav

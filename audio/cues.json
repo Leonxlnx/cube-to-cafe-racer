@@ -1,0 +1,1083 @@
+{
+ "fps": 30,
+ "duration": 45.0,
+ "reveal": 25.0,
+ "shots": [
+  {
+   "name": "s01_cube",
+   "start": 0.0,
+   "frames": 69,
+   "kind": "moving"
+  },
+  {
+   "name": "s02_edge",
+   "start": 2.3,
+   "frames": 51,
+   "kind": "still"
+  },
+  {
+   "name": "s03a_seams",
+   "start": 4.0,
+   "frames": 35,
+   "kind": "locked"
+  },
+  {
+   "name": "s03_breath",
+   "start": 5.17,
+   "frames": 32,
+   "kind": "locked"
+  },
+  {
+   "name": "s04_doors",
+   "start": 6.24,
+   "frames": 65,
+   "kind": "locked"
+  },
+  {
+   "name": "s05_rows",
+   "start": 8.39,
+   "frames": 64,
+   "kind": "locked"
+  },
+  {
+   "name": "s06_rear",
+   "start": 10.53,
+   "frames": 64,
+   "kind": "locked"
+  },
+  {
+   "name": "s06b_lock",
+   "start": 12.67,
+   "frames": 16,
+   "kind": "locked"
+  },
+  {
+   "name": "s07_front",
+   "start": 13.21,
+   "frames": 64,
+   "kind": "locked"
+  },
+  {
+   "name": "s08_touch",
+   "start": 15.35,
+   "frames": 33,
+   "kind": "locked"
+  },
+  {
+   "name": "s09_rise",
+   "start": 16.43,
+   "frames": 32,
+   "kind": "locked"
+  },
+  {
+   "name": "s10_tank",
+   "start": 17.5,
+   "frames": 64,
+   "kind": "locked"
+  },
+  {
+   "name": "s11_cap",
+   "start": 19.64,
+   "frames": 49,
+   "kind": "locked"
+  },
+  {
+   "name": "s12_keel",
+   "start": 21.25,
+   "frames": 64,
+   "kind": "locked"
+  },
+  {
+   "name": "s13_light",
+   "start": 23.39,
+   "frames": 48,
+   "kind": "locked"
+  },
+  {
+   "name": "s14_hero",
+   "start": 25.0,
+   "frames": 129,
+   "kind": "moving"
+  },
+  {
+   "name": "s15_engine",
+   "start": 29.29,
+   "frames": 64,
+   "kind": "still"
+  },
+  {
+   "name": "s16_rearhub",
+   "start": 31.43,
+   "frames": 64,
+   "kind": "still"
+  },
+  {
+   "name": "s17_top",
+   "start": 33.58,
+   "frames": 65,
+   "kind": "still"
+  },
+  {
+   "name": "s18_wheel",
+   "start": 35.72,
+   "frames": 64,
+   "kind": "still"
+  },
+  {
+   "name": "s19_cockpit",
+   "start": 37.86,
+   "frames": 64,
+   "kind": "still"
+  },
+  {
+   "name": "s19b_front34",
+   "start": 40.01,
+   "frames": 64,
+   "kind": "still"
+  },
+  {
+   "name": "s20_final",
+   "start": 42.15,
+   "frames": 86,
+   "kind": "still"
+  }
+ ],
+ "cues": [
+  {
+   "t": 2.3,
+   "kind": "cut",
+   "desc": "cut to s02_edge",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 4.0,
+   "kind": "cut",
+   "desc": "cut to s03a_seams",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 4.6,
+   "kind": "latch_click",
+   "desc": "all seams pop open: fast ripple of 5-7 crisp clicks over 0.35 s",
+   "dur": 0.4,
+   "gain_db": 0,
+   "pan": 0.0
+  },
+  {
+   "t": 4.65,
+   "kind": "pneumatic_hiss",
+   "desc": "short air release with the seam pop",
+   "dur": 0.5,
+   "gain_db": -8,
+   "pan": 0.0
+  },
+  {
+   "t": 5.17,
+   "kind": "cut",
+   "desc": "cut to s03_breath",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 5.6,
+   "kind": "servo_whir",
+   "desc": "front door leaves swing 270 degrees around the cube corners",
+   "dur": 2.0999999999999996,
+   "gain_db": -6,
+   "pan": 0.25
+  },
+  {
+   "t": 5.6,
+   "kind": "hinge_swing",
+   "desc": "air movement of the big front door panels",
+   "dur": 2.0999999999999996,
+   "gain_db": -10,
+   "pan": 0.25
+  },
+  {
+   "t": 5.95,
+   "kind": "servo_whir",
+   "desc": "rear door leaves swing 270 degrees around the cube corners",
+   "dur": 2.0999999999999996,
+   "gain_db": -6,
+   "pan": -0.25
+  },
+  {
+   "t": 5.95,
+   "kind": "hinge_swing",
+   "desc": "air movement of the big rear door panels",
+   "dur": 2.0999999999999996,
+   "gain_db": -10,
+   "pan": -0.25
+  },
+  {
+   "t": 6.24,
+   "kind": "cut",
+   "desc": "cut to s04_doors",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 7.67,
+   "kind": "clack_lock",
+   "desc": "front left door lands flat on the side wall",
+   "dur": 0.3,
+   "gain_db": -3,
+   "pan": 0.55
+  },
+  {
+   "t": 7.79,
+   "kind": "clack_lock",
+   "desc": "front right door lands flat on the side wall",
+   "dur": 0.3,
+   "gain_db": -3,
+   "pan": -0.04999999999999999
+  },
+  {
+   "t": 7.8,
+   "kind": "servo_whir",
+   "desc": "lid rises 10 cm on four arms",
+   "dur": 1.0,
+   "gain_db": -8,
+   "pan": 0.0
+  },
+  {
+   "t": 8.02,
+   "kind": "clack_lock",
+   "desc": "rear left door lands flat on the side wall",
+   "dur": 0.3,
+   "gain_db": -3,
+   "pan": 0.04999999999999999
+  },
+  {
+   "t": 8.14,
+   "kind": "clack_lock",
+   "desc": "rear right door lands flat on the side wall",
+   "dur": 0.3,
+   "gain_db": -3,
+   "pan": -0.55
+  },
+  {
+   "t": 8.39,
+   "kind": "cut",
+   "desc": "cut to s05_rows",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 8.4,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 3)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": 0.4
+  },
+  {
+   "t": 8.48,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 3)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": -0.4
+  },
+  {
+   "t": 8.56,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 2)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": 0.4
+  },
+  {
+   "t": 8.6,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 3)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 8.64,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 2)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": -0.4
+  },
+  {
+   "t": 8.68,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 3)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 8.72,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 1)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": 0.4
+  },
+  {
+   "t": 8.76,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 2)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 8.8,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 1)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": -0.4
+  },
+  {
+   "t": 8.84,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 2)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 8.88,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 0)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": 0.4
+  },
+  {
+   "t": 8.92,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 1)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 8.96,
+   "kind": "latch_click",
+   "desc": "wall rows unlatch (column 0)",
+   "dur": 0.15,
+   "gain_db": -9,
+   "pan": -0.4
+  },
+  {
+   "t": 9.0,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 1)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 9.08,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 0)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 9.16,
+   "kind": "metal_slide",
+   "desc": "wall rows telescope down (column 0)",
+   "dur": 0.9,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 9.43,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 9.51,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 9.59,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 9.67,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 9.71,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": 0.4
+  },
+  {
+   "t": 9.75,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 9.79,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": -0.4
+  },
+  {
+   "t": 9.83,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 9.87,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": 0.4
+  },
+  {
+   "t": 9.91,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": 0.4
+  },
+  {
+   "t": 9.95,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": -0.4
+  },
+  {
+   "t": 9.99,
+   "kind": "clack_lock",
+   "desc": "middle row seats on the bottom row",
+   "dur": 0.2,
+   "gain_db": -8,
+   "pan": -0.4
+  },
+  {
+   "t": 10.03,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": 0.4
+  },
+  {
+   "t": 10.11,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": -0.4
+  },
+  {
+   "t": 10.19,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": 0.4
+  },
+  {
+   "t": 10.27,
+   "kind": "clack_lock",
+   "desc": "top row seats",
+   "dur": 0.2,
+   "gain_db": -6,
+   "pan": -0.4
+  },
+  {
+   "t": 10.53,
+   "kind": "cut",
+   "desc": "cut to s06_rear",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 10.6,
+   "kind": "servo_whir",
+   "desc": "rear wheel swings out on the folding swingarm (long, powerful)",
+   "dur": 2.4000000000000004,
+   "gain_db": -3,
+   "pan": -0.2
+  },
+  {
+   "t": 11.2,
+   "kind": "metal_slide",
+   "desc": "seat carriage slides back on its rails",
+   "dur": 2.0,
+   "gain_db": -7,
+   "pan": -0.3
+  },
+  {
+   "t": 12.67,
+   "kind": "cut",
+   "desc": "cut to s06b_lock",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 12.8,
+   "kind": "servo_whir",
+   "desc": "fork and front wheel rake forward out of the cube",
+   "dur": 1.8000000000000007,
+   "gain_db": -4,
+   "pan": 0.2
+  },
+  {
+   "t": 13.0,
+   "kind": "clack_lock",
+   "desc": "swingarm elbow locks straight (heavy ka-chunk)",
+   "dur": 0.4,
+   "gain_db": 0,
+   "pan": -0.2
+  },
+  {
+   "t": 13.0,
+   "kind": "ratchet",
+   "desc": "ratchet while the front end rakes out",
+   "dur": 1.4000000000000008,
+   "gain_db": -10,
+   "pan": 0.2
+  },
+  {
+   "t": 13.2,
+   "kind": "latch_click",
+   "desc": "seat carriage latches",
+   "dur": 0.2,
+   "gain_db": -4,
+   "pan": -0.3
+  },
+  {
+   "t": 13.21,
+   "kind": "cut",
+   "desc": "cut to s07_front",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 13.5,
+   "kind": "servo_whir",
+   "desc": "front wheel turns straight (light, smooth)",
+   "dur": 1.5,
+   "gain_db": -9,
+   "pan": 0.2
+  },
+  {
+   "t": 14.6,
+   "kind": "clack_lock",
+   "desc": "head struts lock",
+   "dur": 0.35,
+   "gain_db": -1,
+   "pan": 0.2
+  },
+  {
+   "t": 15.15,
+   "kind": "latch_click",
+   "desc": "left handlebar flips out and clicks",
+   "dur": 0.2,
+   "gain_db": -3,
+   "pan": 0.25
+  },
+  {
+   "t": 15.33,
+   "kind": "latch_click",
+   "desc": "right handlebar flips out and clicks",
+   "dur": 0.2,
+   "gain_db": -3,
+   "pan": 0.15
+  },
+  {
+   "t": 15.35,
+   "kind": "cut",
+   "desc": "cut to s08_touch",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 15.5,
+   "kind": "pneumatic_hiss",
+   "desc": "fork legs extend",
+   "dur": 0.8499999999999996,
+   "gain_db": -5,
+   "pan": 0.0
+  },
+  {
+   "t": 16.35,
+   "kind": "suspension",
+   "desc": "tyres touch the floor, bike rises and settles on its springs (soft thud + spring)",
+   "dur": 1.2,
+   "gain_db": -2,
+   "pan": 0.0
+  },
+  {
+   "t": 16.35,
+   "kind": "impact_low",
+   "desc": "soft low thud of the touchdown",
+   "dur": 0.8,
+   "gain_db": -10,
+   "pan": 0.0
+  },
+  {
+   "t": 16.4,
+   "kind": "servo_whir",
+   "desc": "stand feet retract (tiny)",
+   "dur": 0.6499999999999986,
+   "gain_db": -14,
+   "pan": 0.0
+  },
+  {
+   "t": 16.43,
+   "kind": "cut",
+   "desc": "cut to s09_rise",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 16.5,
+   "kind": "servo_whir",
+   "desc": "tank panels travel back above the bike",
+   "dur": 0.9500000000000028,
+   "gain_db": -8,
+   "pan": 0.0
+  },
+  {
+   "t": 17.5,
+   "kind": "cut",
+   "desc": "cut to s10_tank",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 17.6,
+   "kind": "hinge_swing",
+   "desc": "tank side panels fold down",
+   "dur": 1.1500000000000021,
+   "gain_db": -10,
+   "pan": 0.0
+  },
+  {
+   "t": 18.276,
+   "kind": "latch_click",
+   "desc": "tank shoulder panels click into angle",
+   "dur": 0.2,
+   "gain_db": -5,
+   "pan": 0.0
+  },
+  {
+   "t": 18.32,
+   "kind": "clack_lock",
+   "desc": "tail box closes under the subframe",
+   "dur": 0.3,
+   "gain_db": -5,
+   "pan": -0.4
+  },
+  {
+   "t": 18.55,
+   "kind": "servo_whir",
+   "desc": "tank shell lowers onto the frame",
+   "dur": 0.9499999999999993,
+   "gain_db": -7,
+   "pan": 0.0
+  },
+  {
+   "t": 18.65,
+   "kind": "latch_click",
+   "desc": "tank side panels click into angle",
+   "dur": 0.2,
+   "gain_db": -4,
+   "pan": 0.0
+  },
+  {
+   "t": 19.38,
+   "kind": "clack_lock",
+   "desc": "tank shell seats on the frame (solid clunk)",
+   "dur": 0.4,
+   "gain_db": -1,
+   "pan": 0.0
+  },
+  {
+   "t": 19.4,
+   "kind": "whoosh",
+   "desc": "left wall panels tip inward and fall",
+   "dur": 0.7479999999999998,
+   "gain_db": -8,
+   "pan": 0.35
+  },
+  {
+   "t": 19.64,
+   "kind": "cut",
+   "desc": "cut to s11_cap",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 19.9,
+   "kind": "latch_click",
+   "desc": "tank nose facet clicks down",
+   "dur": 0.15,
+   "gain_db": -6,
+   "pan": 0.2
+  },
+  {
+   "t": 20.0,
+   "kind": "servo_whir",
+   "desc": "left rear stack lifts and swings under the seat",
+   "dur": 1.8000000000000007,
+   "gain_db": -10,
+   "pan": 0.3
+  },
+  {
+   "t": 20.148,
+   "kind": "impact_low",
+   "desc": "left panel stack slaps flat on the floor (metal sheet slap)",
+   "dur": 0.4,
+   "gain_db": -5,
+   "pan": 0.35
+  },
+  {
+   "t": 20.248,
+   "kind": "metal_slide",
+   "desc": "left stack slides under the engine",
+   "dur": 0.8799999999999998,
+   "gain_db": -4,
+   "pan": 0.35
+  },
+  {
+   "t": 20.3,
+   "kind": "pneumatic_hiss",
+   "desc": "fuel cap pops up (tiny air puff)",
+   "dur": 0.25,
+   "gain_db": -10,
+   "pan": 0.0
+  },
+  {
+   "t": 20.4,
+   "kind": "latch_click",
+   "desc": "fuel cap pops up",
+   "dur": 0.15,
+   "gain_db": -2,
+   "pan": 0.0
+  },
+  {
+   "t": 20.4,
+   "kind": "servo_whir",
+   "desc": "right rear stack lifts and swings under the seat",
+   "dur": 1.8000000000000007,
+   "gain_db": -10,
+   "pan": -0.3
+  },
+  {
+   "t": 20.65,
+   "kind": "ratchet",
+   "desc": "fuel cap twists a quarter turn (fine clicks)",
+   "dur": 0.4,
+   "gain_db": -6,
+   "pan": 0.0
+  },
+  {
+   "t": 21.1,
+   "kind": "metal_ring",
+   "desc": "fuel cap locks (bright metallic shing)",
+   "dur": 0.6,
+   "gain_db": -4,
+   "pan": 0.0
+  },
+  {
+   "t": 21.1,
+   "kind": "whoosh",
+   "desc": "right wall panels tip inward and fall",
+   "dur": 0.6459999999999996,
+   "gain_db": -8,
+   "pan": -0.35
+  },
+  {
+   "t": 21.25,
+   "kind": "cut",
+   "desc": "cut to s12_keel",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 21.5,
+   "kind": "clack_lock",
+   "desc": "left stack snaps up into the belly keel",
+   "dur": 0.35,
+   "gain_db": -1,
+   "pan": 0.105
+  },
+  {
+   "t": 21.5,
+   "kind": "servo_whir",
+   "desc": "side covers swing in on their arms",
+   "dur": 1.8500000000000014,
+   "gain_db": -7,
+   "pan": 0.0
+  },
+  {
+   "t": 21.746,
+   "kind": "impact_low",
+   "desc": "right panel stack slaps flat on the floor (metal sheet slap)",
+   "dur": 0.4,
+   "gain_db": -5,
+   "pan": -0.35
+  },
+  {
+   "t": 21.75,
+   "kind": "clack_lock",
+   "desc": "left stack docks under the seat",
+   "dur": 0.25,
+   "gain_db": -6,
+   "pan": 0.3
+  },
+  {
+   "t": 21.846,
+   "kind": "metal_slide",
+   "desc": "right stack slides under the engine",
+   "dur": 0.7599999999999995,
+   "gain_db": -4,
+   "pan": -0.35
+  },
+  {
+   "t": 22.15,
+   "kind": "clack_lock",
+   "desc": "right stack docks under the seat",
+   "dur": 0.25,
+   "gain_db": -6,
+   "pan": -0.3
+  },
+  {
+   "t": 22.8,
+   "kind": "riser",
+   "desc": "riser into the reveal",
+   "dur": 2.2,
+   "gain_db": -4,
+   "pan": 0.0
+  },
+  {
+   "t": 22.9,
+   "kind": "clack_lock",
+   "desc": "right stack snaps up into the belly keel",
+   "dur": 0.35,
+   "gain_db": -1,
+   "pan": -0.105
+  },
+  {
+   "t": 23.05,
+   "kind": "clack_lock",
+   "desc": "left side cover locks",
+   "dur": 0.3,
+   "gain_db": -3,
+   "pan": 0.3
+  },
+  {
+   "t": 23.3,
+   "kind": "clack_lock",
+   "desc": "right side cover locks",
+   "dur": 0.3,
+   "gain_db": -3,
+   "pan": -0.3
+  },
+  {
+   "t": 23.39,
+   "kind": "cut",
+   "desc": "cut to s13_light",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 23.93,
+   "kind": "switch_light",
+   "desc": "headlight and tail light switch on",
+   "dur": 0.6,
+   "gain_db": 0,
+   "pan": 0.0
+  },
+  {
+   "t": 25.0,
+   "kind": "cut",
+   "desc": "cut to s14_hero",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 25.0,
+   "kind": "impact_low",
+   "desc": "REVEAL: finished bike hero shot. Music hit lands here",
+   "dur": 2.5,
+   "gain_db": 0,
+   "pan": 0.0
+  },
+  {
+   "t": 29.17,
+   "kind": "whoosh",
+   "desc": "soft transition whoosh into s15_engine",
+   "dur": 0.5,
+   "gain_db": -12,
+   "pan": 0.0
+  },
+  {
+   "t": 29.29,
+   "kind": "cut",
+   "desc": "cut to s15_engine",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 31.31,
+   "kind": "whoosh",
+   "desc": "soft transition whoosh into s16_rearhub",
+   "dur": 0.5,
+   "gain_db": -12,
+   "pan": 0.0
+  },
+  {
+   "t": 31.43,
+   "kind": "cut",
+   "desc": "cut to s16_rearhub",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 33.46,
+   "kind": "whoosh",
+   "desc": "soft transition whoosh into s17_top",
+   "dur": 0.5,
+   "gain_db": -12,
+   "pan": 0.0
+  },
+  {
+   "t": 33.58,
+   "kind": "cut",
+   "desc": "cut to s17_top",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 35.6,
+   "kind": "whoosh",
+   "desc": "soft transition whoosh into s18_wheel",
+   "dur": 0.5,
+   "gain_db": -12,
+   "pan": 0.0
+  },
+  {
+   "t": 35.72,
+   "kind": "cut",
+   "desc": "cut to s18_wheel",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 37.74,
+   "kind": "whoosh",
+   "desc": "soft transition whoosh into s19_cockpit",
+   "dur": 0.5,
+   "gain_db": -12,
+   "pan": 0.0
+  },
+  {
+   "t": 37.86,
+   "kind": "cut",
+   "desc": "cut to s19_cockpit",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 39.89,
+   "kind": "whoosh",
+   "desc": "soft transition whoosh into s19b_front34",
+   "dur": 0.5,
+   "gain_db": -12,
+   "pan": 0.0
+  },
+  {
+   "t": 40.01,
+   "kind": "cut",
+   "desc": "cut to s19b_front34",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  },
+  {
+   "t": 41.2,
+   "kind": "engine",
+   "desc": "optional ending accent: starter + one rev, fades out before the end",
+   "dur": 3.2,
+   "gain_db": -8,
+   "pan": 0.0
+  },
+  {
+   "t": 42.03,
+   "kind": "whoosh",
+   "desc": "soft transition whoosh into s20_final",
+   "dur": 0.5,
+   "gain_db": -12,
+   "pan": 0.0
+  },
+  {
+   "t": 42.15,
+   "kind": "cut",
+   "desc": "cut to s20_final",
+   "dur": null,
+   "gain_db": 0.0,
+   "pan": 0.0
+  }
+ ]
+}
